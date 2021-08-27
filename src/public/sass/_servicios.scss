@@ -1,0 +1,127 @@
+/* Servicios */
+
+.servicios {
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 80px;
+
+  .hser {
+    margin-bottom: 40px;
+  }
+
+  .bser {
+    margin-top: 140px;
+
+    .ser-a,
+    .ser-b {
+      display: flex;
+      margin-top: 60px;
+      align-items: center;
+
+      img {
+        border-radius: 30px;
+      }
+      .sera-img,
+      .sera-txt {
+        width: 50%;
+      }
+
+      .sera-txt {
+        ul {
+          list-style: none;
+          padding: 0px;
+
+          li {
+            margin-top: 6px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.servicio__individual {
+  .container {
+    .card {
+      background: $morc;
+      color: $morb;
+      .card-header {
+        text-align: center;
+      }
+
+      .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .ser__img {
+          margin: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1080px) {
+  .servicios {
+    margin-top: 40px;
+    img {
+      width: 100%;
+    }
+
+    .bser {
+      margin-top: 40px;
+      .ser-b,
+      .ser-a {
+        width: 100%;
+        background: $mor;
+        color: white;
+        border-radius: 26px;
+        margin-top: 40px;
+        margin-left: 10px;
+        display: block;
+        padding: 8px;
+        padding-left: 10px;
+        margin-left: 0px;
+        .sera-txt,
+        .sera-img {
+          margin-top: 40px;
+          width: 100%;
+
+          .container {
+            margin: 10px 0px 10px 0px;
+          }
+        }
+      }
+    }
+  }
+
+  .servicio__individual {
+    .container {
+      .card {
+        background: $morc;
+        color: $morb;
+        margin: 20px;
+        .card-header {
+          text-align: center;
+        }
+  
+        .card-body {
+          display: block;  
+          .ser__img {
+            width: 100%;
+            margin: 0px;
+          }
+
+          .ser__item {
+            list-style: none;
+            padding: 0px;
+            li {
+              margin: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

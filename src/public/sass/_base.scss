@@ -1,0 +1,183 @@
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.miga__pan {
+    margin: 20px;
+    position: relative;
+    z-index: 1;
+
+    a {
+        color: $mor;
+        text-decoration: none;
+        &:hover {
+            color: $morb;
+            transition: all 0.6s;
+        }
+    }
+}
+
+.log {
+    width: 60px;
+}
+
+.slogan {
+    background: $mor;
+    color: white;
+    h2 {
+        font-weight: lighter;
+    }
+}
+
+.inner--bg {
+    width: 100%;
+}
+
+.back {
+    position: absolute;
+    z-index: -1;
+
+    .bg__desk {
+        width: 100%;
+        opacity: 20%;
+    }
+
+    .bg__mob {
+        display: none;
+    }
+}
+
+.alerta {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    a {
+        color: $mor;
+        &:hover {
+            transition: all 0.6s;
+            color: $morb;
+        }
+    }
+}
+
+.bg__mobile {
+    display: none;
+}
+
+.bg__desktop {
+    .bg-trans {
+        z-index: 2;
+        position: relative;
+        img {
+            width: 100%;
+        }
+
+        .bg-link {
+            position: absolute;
+            right: 180px;
+            background: $mor;
+            border-radius: 6px;
+            color: white;
+            width: 100px;
+            text-align: center;
+            height: 30px;
+            display: inline-grid;
+            z-index: 5;
+            align-items: center;
+            top: 340px;
+            text-decoration: none;
+            &:hover {
+                transition: all 0.4s;
+                background: $morc;
+                color: $mor;
+            }
+        }
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        z-index: 3;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .back {
+        width: 100%;
+
+        .bg__desk {
+            display: none;
+        }
+
+        .bg__mob {
+            display: block;
+            width: 100%;
+            opacity: 20%;
+            height: 5200px;
+
+            @media (min-width: 375px) {
+                height: 5200px;
+            }
+        }
+    }
+
+    .bg__mobile {
+        display: block;
+        .bg-trans {
+            z-index: 2;
+            position: relative;
+            img {
+                width: 100%;
+            }
+
+            .bg-link {
+                position: absolute;
+                right: 36%;
+                background: $mor;
+                border-radius: 6px;
+                color: white;
+                width: 100px;
+                text-align: center;
+                height: 30px;
+                display: inline-grid;
+                z-index: 5;
+                align-items: center;
+                top: 80%;
+                text-decoration: none;
+                &:hover {
+                    transition: all 0.4s;
+                    background: $morc;
+                    color: $mor;
+                }
+            }
+        }
+    }
+
+    .bg__desktop {
+        display: none;
+    }
+}

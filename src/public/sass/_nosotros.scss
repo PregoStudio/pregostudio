@@ -1,0 +1,158 @@
+/* Nosotros */
+
+.inner img {
+  width: 100%;
+}
+
+.nosotros {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+  .hnos {
+    margin-bottom: 40px;
+  }
+
+  .bnos {
+    margin-top: 140px;
+
+    .nos-a,
+    .nos-b {
+      display: flex;
+      margin-top: 50px;
+
+      .nosa-img {
+        width: 50%;
+      }
+
+      .nosa-txt {
+        width: 50%;
+        margin-top: 80px;
+        ul {
+          list-style: none;
+          padding: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .nosotros {
+    margin-top: 40px;
+    width: 100%;
+
+    .bnos {
+      margin-top: 40px;
+      width: 100%;
+      .nos-a,
+      .nos-b {
+        background: $mor;
+        border-radius: 26px;
+        width: 100%;
+        display: block;
+        margin-left: 0px;
+        padding: 8px;
+        padding-left: 10px;
+        color: white;
+        .nosa-txt {
+          margin-top: 20px;
+          width: 100%;
+        }
+
+        .nosa-img {
+          width: 100%;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .nosotros {
+    margin-top: 40px;
+    img {
+      width: 320px;
+    }
+
+    .bnos {
+      margin-top: 40px;
+      .nos-a,
+      .nos-b {
+        background: $mor;
+        border-radius: 26px;
+        width: 340px;
+        display: block;
+        margin-left: 0px;
+        padding: 8px;
+        padding-left: 10px;
+        color: white;
+        .nosa-txt {
+          margin-top: 20px;
+          width: 320px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  .nosotros {
+    margin-top: 40px;
+    img {
+      width: 360px;
+    }
+
+    .bnos {
+      margin-top: 40px;
+      .nos-a,
+      .nos-b {
+        background: $mor;
+        border-radius: 26px;
+        width: 390px;
+        display: block;
+        margin-left: 0px;
+        padding: 8px;
+        padding-left: 10px;
+        color: white;
+        .nosa-txt {
+          margin-top: 20px;
+          width: 360px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .nosotros {
+    margin-top: 40px;
+    img {
+      width: 360px;
+    }
+
+    .bnos {
+      margin-top: 40px;
+      .nos-a,
+      .nos-b {
+        background: $mor;
+        border-radius: 26px;
+        width: 390px;
+        display: block;
+        margin-left: 0px;
+        padding: 8px;
+        padding-left: 10px;
+        color: white;
+        .nosa-txt {
+          margin-top: 20px;
+          width: 360px;
+        }
+      }
+    }
+  }
+}
+
+/* Fin Nosotros */

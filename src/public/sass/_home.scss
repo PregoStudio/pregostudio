@@ -1,0 +1,131 @@
+.intro {
+    .container {
+        display: flex;
+        margin-top: 40px;
+        justify-content: flex-end;
+        align-items: center;
+
+        .txt-intro {
+            width: 40%;
+            margin: 40px;
+        }
+    }
+}
+
+.nos__section {
+    height: 860px;
+
+    .nos__access {
+        width: 100%;
+    }
+
+    .nos__txt--section {
+        position: relative;
+        bottom: 640px;
+        z-index: 2;
+        display: flex;
+        padding: 20px;
+        justify-content: start;
+        text-align: start;
+
+        .container {
+            display: block;
+
+            .text-sect {
+                width: 50%;
+                border-radius: 12px;
+                padding: 10px;
+
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+.ser__section {
+    height: 880px;
+    .ser__access {
+        width: 100%;
+    }
+
+    .ser__txt--section {
+        padding-left: 50%;
+        position: relative;
+        bottom: 680px;
+        z-index: 2;
+
+        .container {
+            width: 90%;
+            .text-but {
+                margin-left: 0px;
+            }
+        }
+    }
+}
+
+.text-but {
+    margin: 10px;
+    .nos-link {
+        background: $mor;
+        border-radius: 6px;
+        padding: 10px;
+        color: white;
+        font-size: 18px;
+        width: 110px;
+        text-align: center;
+        text-decoration: none;
+        &:hover {
+            transition: all 0.4s;
+            background: $morc;
+            color: $mor;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .intro {
+        text-align: center;
+        img {
+            width: 100%;
+        }
+        .container {
+            display: block;
+            .txt-intro {
+                width: 100%;
+                margin: 0px;
+                padding: 10px;
+            }
+        }
+    }
+
+    .nos__section {
+        height: 620px;
+        display: block;
+        
+        .nos__txt--section {
+            text-align: center;
+            bottom: 0px;
+            .container {
+                .text-sect {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .ser__section {
+        height: 520px;
+        .ser__txt--section {
+            text-align: center;
+            width: 100%;
+            bottom: 0px;
+            padding: 10px;
+        }
+    }
+
+    .inner--bg {
+        display: none;
+    }
+}

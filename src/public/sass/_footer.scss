@@ -1,0 +1,108 @@
+.footer {
+    color: white;
+    background: $mor;
+    clear: both;
+    padding: 20px;
+
+    a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+            transition: all 0.6s;
+            color: $morb;
+        }
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        .footer__section {
+            width: 30%;
+            ul {
+                list-style: none;
+            }
+
+            .fss-body {
+                ul {
+                    padding: 0px;
+                }
+            }
+
+            .section__contacts {
+                .whats,
+                .email,
+                .tel {
+                    a {
+                        img {
+                            width: 20px;
+                            margin: 10px;
+                        }
+                    }
+                }
+            }
+
+            .section__social {
+                .social {
+                    display: flex;
+                    justify-content: center;
+                    .face,
+                    .insta,
+                    .twitt {
+                        a {
+                            img {
+                                width: 60px;
+                                margin: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .logo-footer {
+                a {
+                    img {
+                        width: 80px;
+                    }
+
+                    .logo-appstore {
+                        width: 120px;
+                    }
+                }
+            }
+
+            .dir-footer {
+                margin-top: 40px;
+            }
+        }
+    }
+
+    .derechos {
+        text-align: center;
+        height: 30px;
+        .container {
+            text-align: center;
+            display: block;
+            align-items: center;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .footer {
+        padding: 10px;
+        height: 100%;
+        .container {
+            display: block;
+            .footer__section {
+                width: 100%;
+                ul {
+                    padding: 0px;
+                }
+            }
+        }
+
+        .derechos {
+            height: 50px;
+        }
+    }
+}
