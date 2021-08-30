@@ -1,0 +1,25 @@
+.howto {
+    z-index: 1;
+    margin-top: 80px;
+    
+    .howto__body {
+        margin-top: 60px;
+        .container {
+            text-align: center;
+
+            .howto__list {
+                display: flex;
+                justify-content: space-evenly;
+                .howto__item {
+                    list-style: none;
+                    width: 24%;
+
+                    .howto__img {
+                        width: 110px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

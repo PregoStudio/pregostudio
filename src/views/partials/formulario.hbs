@@ -1,0 +1,85 @@
+<div class="boton__solicitud">
+    <button class="boton_producto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        ¡Pídelo Ahora!
+    </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Forulario de solicitud</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-block">
+                <i>* Completa los datos del formulario y nos pondremos en contacto para concretar la
+                    entrega.</i>
+
+                <div class="form__req">
+                    {{> sent}}
+                    {{!-- <form action="/email-sent" method="POST" class="form_req">
+                        <div class="section__form">
+                            <div class="form-group">
+                                <div class="mb-3">
+                                    <label class="form-label">Nombre completo:</label>
+                                    <input name="clientname" type="text" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Teléfono/Celular:</label>
+                                    <input name="phone" type="text" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Correo electrónico:</label>
+                                    <input name="email" type="email" class="form-control">
+                                    <div id="emailHelp" class="form-text">Tus datos no serán compartidos con
+                                        terceros.</div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="mb-3">
+                                    <label class="form-label">Descripción</label>
+                                    <textarea name="description" rows="4" class="form-control"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <select name="product" class="form-select" aria-label="Default select example">
+                                        <option selected>¿Desea consultar un producto?</option>
+                                        <option value="1">Panel Japonés</option>
+                                        <option value="2">Bambulita</option>
+                                        <option value="3">Cortina tradicional</option>
+                                        <option value="4">Sheer Elegance</option>
+                                        <option value="5">Enrollable Screen y Blackout</option>
+                                        <option value="6">Cortina Hospitalaria</option>
+                                        <option value="7">Persiana Vertical</option>
+                                        <option value="8">Cortina de onda perfecta</option>
+                                        <option value="9">Enrollables en Vinilo</option>
+                                        <option value="10">Persiana Horizontal Aluminio</option>
+                                        <option value="11">Cortina Romana</option>
+                                        <option value="12">Toldos</option>
+                                        <option value="13">Papel de Colgadura</option>
+                                        <option value="14">Películas para vidrios</option>
+                                        <option value="15">Persianas Estampada</option>
+                                        <option value="16">Pergolas</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" name="checkbox"
+                                value"yes">
+                            <label class="form-check-label">He leído y acepto la <a href="/privacidad">Política de
+                                    privacidad</a></label>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="submit" class="boton_mapa">Enviar</button>
+                            <button class="boton_mapa" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </form> --}}
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

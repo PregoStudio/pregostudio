@@ -1,0 +1,33 @@
+<div class="container p-4">
+    <div class="row">
+        {{#each links}}
+        <div class="col-md-3">
+            <div class="card text-center m-2">
+                <div class="card-body">
+                    <a class="ados" href="{{url}}" target="_blank">
+                        <h3 class="card-title text-uppercase">
+                            {{title}}
+                        </h3>
+                    </a>
+                    <p style="color: black;" class="m-2">{{description}}</p>
+                    <p style="color: black;"> {{timeago created_at}} </p>
+                    <a href="/links/delete/{{id}}" class="btn btn-danger">Borrar</a>
+                    <a href="/links/edit/{{id}}" class="btn btn-secondary">Editar</a>
+                </div>
+            </div>
+        </div>
+        {{else}}
+        <div class="col-md-4 mx-auto">
+            <div class="card card-body text-center">
+                <p style="color: black;">No hay servicios pendientes</p>
+                <a class="ados" href="/links/add">Crea una solicitud!</a>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    {{#if links}}
+    <div class="container mt-4" style="text-align: center;">
+        <a href="/links/add" class="btn btn-danger">Solicita otro servicio</a>
+    </div>
+    {{/if}}
+</div>

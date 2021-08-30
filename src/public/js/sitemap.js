@@ -5,48 +5,38 @@
       "-xsi:schemaLocation"; "http://www.sitemaps.org/schemas/sitemap/0.9             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd",
       "url"; [
         {
-          "loc": "https://www.teacompano.com.co/",
-          "lastmod": "2021-01-28T02:39:50+00:00",
+          "loc": "https://www.k1n0.com.co/",
+          "lastmod": "2021-01-28T02:11:30+00:00",
           "priority": "1.00"
         },
         {
-          "loc": "https://www.teacompano.com.co/servicios",
-          "lastmod": "2021-01-28T02:39:50+00:00",
+          "loc": "https://www.k1n0.com.co/nosotros",
+          "lastmod": "2021-01-28T02:11:30+00:00",
           "priority": "0.80"
         },
         {
-          "loc": "https://www.teacompano.com.co/personal",
-          "lastmod": "2021-01-28T02:39:50+00:00",
+          "loc": "https://www.k1n0.com.co/servicios",
+          "lastmod": "2021-01-28T02:11:30+00:00",
           "priority": "0.80"
         },
         {
-          "loc": "https://www.teacompano.com.co/usuarios/add",
-          "lastmod": "2021-01-28T02:39:50+00:00",
+          "loc": "https://www.k1n0.com.co/signin",
+          "lastmod": "2021-01-28T02:11:30+00:00",
           "priority": "0.80"
         },
         {
-          "loc": "https://www.teacompano.com.co/servicios/enfermeria-domicilio",
-          "lastmod": "2021-01-28T02:39:50+00:00",
+          "loc": "https://www.k1n0.com.co/signup",
+          "lastmod": "2021-01-28T02:11:30+00:00",
           "priority": "0.80"
         },
         {
-          "loc": "https://www.teacompano.com.co/servicios/enfermeria-intrahospitalario",
-          "lastmod": "2021-01-28T02:39:50+00:00",
+          "loc": "https://www.k1n0.com.co/cookies",
+          "lastmod": "2021-01-28T02:11:30+00:00",
           "priority": "0.80"
         },
         {
-          "loc": "https://www.teacompano.com.co/servicios/consulta-medica",
-          "lastmod": "2021-01-28T02:39:50+00:00",
-          "priority": "0.80"
-        },
-        {
-          "loc": "https://www.teacompano.com.co/servicios/acompanamiento-citas-medicas",
-          "lastmod": "2021-01-28T02:39:50+00:00",
-          "priority": "0.80"
-        },
-        {
-          "loc": "https://www.teacompano.com.co/servicios/asesoria-juridica-salud",
-          "lastmod": "2021-01-28T02:39:50+00:00",
+          "loc": "https://www.k1n0.com.co/privacy",
+          "lastmod": "2021-01-28T02:11:30+00:00",
           "priority": "0.80"
         }
       ]

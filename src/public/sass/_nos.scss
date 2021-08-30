@@ -1,0 +1,136 @@
+.inner__nos {
+    width: 100%;
+    position: relative;
+}
+
+.inner__mob {
+    display: none;
+}
+
+.nosotros {
+    margin-top: 120px;
+    height: 936px;
+    .fondo__nos {
+        width: 100%;
+    }
+
+    .container {
+        position: relative;
+        bottom: 740px;
+        width: 40%;
+        text-align: end;
+        left: 240px;
+
+        .nos__title {
+            h2 {
+                font-size: 38px;
+            }
+        }
+
+        .mision,
+        .vision,
+        .valores {
+            margin: 20px;
+            padding: 10px;
+            background: $blt;
+        }
+
+        .vision {
+            position: relative;
+            right: 380px;
+        }
+
+        .valores {
+            position: relative;
+            right: 660px;
+        }
+    }
+}
+
+.nos {
+    .container {
+        .nos__header {
+            text-align: center;
+        }
+
+        .nos__body {
+            .nos__body--item {
+                .item--title {
+                    text-align: center;
+                }
+
+                .item--body {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 40px;
+                    align-items: center;
+
+                    p,
+                    img {
+                        margin: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1366px) {
+    .inner__nos {
+        display: none;
+    }
+
+    .inner__mob {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    .nosotros {
+        display: flex;
+        margin-top: 230px;
+        .fondo__nos {
+            display: none;
+        }
+
+        .container {
+            position: relative;
+            bottom: 0px;
+            width: 100%;
+            text-align: end;
+            left: 0px;
+
+            .vision,
+            .valores {
+                right: 0px;
+            }
+        }
+    }
+
+    .nos {
+        .container {
+            .nos__body {
+                .nos__body--item {
+                    text-align: center;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+
+                    .item--body {
+                        display: block;
+                        margin: 0px;
+
+                        img {
+                            width: 90%;
+                            margin: 10px 20px;
+                        }
+                        p {
+                            width: 100%;
+                            text-align: center;
+                            margin: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,131 @@
+.section__map {
+    margin-top: 60px;
+    .map__body {
+        margin-top: 40px;
+        margin-bottom: 0px;
+        height: 740px;
+
+        iframe {
+            width: 100%;
+            height: 520px;
+        }
+
+        .map__txt--box {
+            position: relative;
+            bottom: 500px;
+            left: 980px;
+            z-index: 1;
+            background: $Pr;
+            color: $bl;
+            width: 440px;
+            height: 460px;
+            padding: 40px;
+            text-align: center;
+            border-radius: 20px 0px 20px 0px;
+
+            .container {
+                color: $bl;
+                .call__section {
+                    padding: 0px 0px 0px 96px;
+                    list-style: none;
+                    text-align: left;
+                    li {
+                        list-style: none;
+                        color: $bl;
+                        &:hover {
+                            transition: all 0.6s;
+                            color: $Fondo;
+                        }
+
+                        a {
+                            color: $bl;
+                            margin-left: 4px;
+                            &:hover {
+                                transition: all 0.6s;
+                                color: $Fondo;
+                            }
+                        }
+                    }
+                }
+
+                .email__map {
+                    display: flex;
+                    justify-content: center;
+                    a {
+                        color: $bl;
+                        &:hover {
+                            transition: all 0.6s;
+                            color: $Fondo;
+                        }
+                    }
+                }
+            }
+
+            .boton_mapa {
+                background: $Fondo;
+                color: $Pr;
+                border-radius: 12px 0px;
+                padding: 4px;
+                margin-top: 16px;
+
+                &:hover {
+                    transition: all 0.6s;
+                    background: $bl;
+                }
+            }
+
+            .modal {
+                .modal-dialog {
+                    .modal-content {
+                        color: $Fondo;
+
+                        .modal-header {
+                            text-align: center;
+                        }
+
+                        .modal-body {
+                            text-align: left;
+
+                            .form__req {
+                                margin: 40px;
+                                form {
+                                    display: block;
+
+                                    .section__form {
+                                        display: flex;
+                                        justify-content: space-evenly;
+                                    }
+
+                                    .mb-3 {
+                                        a {
+                                            color: $Fondo;
+                                            &:hover {
+                                                transition: all 0.6s;
+                                                color: $Pr;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .boton_mapa {
+        background: $Fondo;
+        color: $Pr;
+        border-radius: 12px 0px;
+        padding: 4px;
+        margin-top: 16px;
+
+        &:hover {
+            transition: all 0.6s;
+            background: $bl;
+        }
+    }
+}

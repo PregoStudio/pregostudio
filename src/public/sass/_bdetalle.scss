@@ -1,0 +1,123 @@
+.blog__detalle {
+    .container {
+        background: $Gris;
+        padding: 40px;
+        margin-bottom: 60px;
+        .bd__title {
+            text-align: center;
+        }
+
+        .bd__body {
+            padding: 40px;
+            display: block;
+
+            .bd__video {
+                display: flex;
+                iframe {
+                    width: 790px;
+                    height: 444px;
+                }
+    
+                .espacio__publicitario {
+                    border: 1px solid $grisC;
+                    padding: 20px;
+                    display: block;
+    
+                    .partner {
+                        border: 1px solid $grisC;
+                        height: 46%;
+                        padding: 10px;
+                        margin: 10px;
+                    }
+                }
+            }
+        }
+
+        .bd__footer {
+            p {
+                font-size: 16px;
+            }
+
+            ul {
+                display: flex;
+                list-style: none;
+                padding: 0px;
+            }
+
+            .container {
+                padding: 40px;
+                border-radius: 12px;
+
+                .bd__info {
+                    color: $grisC;
+                    font-size: 14px;
+                }
+
+                .bd__hash {
+                    .list__hash {
+                        .item__hash {
+                            margin-left: 20px;
+                        }
+                    }
+                }
+
+                .bd__desc {
+                    width: 70%;
+                }
+
+                .bd__kw {
+                    .kw__list {
+                        .kw__item {
+                            margin-left: 20px;
+                        }
+                    }
+                }
+
+                .bd__share {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .blog__detalle {
+        .container {
+            padding: 20px 4px 4px 4px;
+            .bd__body {
+                padding: 20px 4px 4px 4px;
+                .bd__video {
+                    display: block;
+                    iframe {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .bd__footer {
+                .container {
+                    .bd__hash {
+                        display: block;
+                        .list__hash {
+                            display: block;
+                            .item__hash {
+                                margin-left: 4px;
+                            }
+                        }
+                    }
+
+                    .bd__kw {
+                        display: block;
+                        .kw__list {
+                            display: block;
+                            .kw__item {
+                                margin-left: 4px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

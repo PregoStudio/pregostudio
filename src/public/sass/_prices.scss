@@ -1,0 +1,62 @@
+.diseno {
+    margin-top: 80px;
+    position: relative;
+
+    ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+    .container {
+        margin-top: 40px;
+        padding-left: 0px;
+        .diseno__title {
+            margin-top: 40px;
+        }
+
+        .diseno__body {
+            margin-top: 60px;
+
+            .ser__subtitle {
+                margin-top: 40px;
+            }
+
+            .container {
+                margin-bottom: 60px;
+                .diseno__body--dos {
+                    .carousel {
+                        .carousel-inner {
+                            .carousel-item {
+                                .ser__item {
+                                    margin-top: 60px;
+                                    display: flex;
+                                    justify-content: space-evenly;
+                                    align-items: center;
+
+                                    .serv__img {
+                                        position: relative;
+                                        img {
+                                            width: 520px;
+                                        }
+                                    }
+
+                                    .serv__txt {
+                                        display: block;
+                                        width: 50%;
+
+                                        .serv__icons {
+                                            img {
+                                                height: 40px;
+                                                margin: 20px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

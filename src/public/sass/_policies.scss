@@ -1,0 +1,46 @@
+.cookies,
+.privacy {
+    margin-top: 80px;
+    .container {
+        margin-top: 60px;
+        .cookies__header,
+        .privacy__header {
+            margin-top: 40px;
+            .container {
+                margin-top: 80px;
+            }
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            .privacy__body {
+                width: 80%;
+            }
+        }
+    }
+}
+
+.sitemap {
+    margin-top: 80px;
+    .container {
+        margin-top: 60px;
+        .sitemap__header {
+            text-align: center;
+        }
+        .container {
+            margin-top: 60px;
+            padding-left: 120px;
+            display: block;
+            .bodymap {
+                margin-top: 60px;
+                .sitemap__list {
+                    padding: 20px;
+                    .sitemap__item {
+                        margin: 20px;
+                        padding: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
