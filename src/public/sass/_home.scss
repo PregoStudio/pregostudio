@@ -13,7 +13,7 @@ body {
     background: $Pr;
     position: sticky;
     top: 0px;
-    z-index: 2;
+    z-index: 3;
     height: 120px;
 
     .container {
@@ -220,7 +220,7 @@ a {
     text-decoration: none;
     &:hover {
         transition: all 0.4s;
-        color: $Pr;
+        color: $Dor;
         text-decoration: none;
     }
 }
@@ -274,6 +274,7 @@ a {
 .intro {
     padding: 40px 20px 20px 20px;
     margin-top: 20px;
+    height: 1180px;
 
     .intro__img {
         z-index: 1;
@@ -290,7 +291,7 @@ a {
 
     .container {
         position: relative;
-        bottom: 580px;
+        bottom: 600px;
         z-index: 1;
         text-align: left;
 
@@ -324,6 +325,42 @@ a {
                             color: $Sec;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+.intro__dos {
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    width: 100%;
+
+    .intro__body {
+        color: $bl;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .section {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            .section__intro {
+                margin: 20px;
+                padding: 10px;
+                width: 30%;
+                display: flex;
+                justify-content: center;
+
+                .intro__img {
+                    width: 380px;
+                }
+
+                .intro__txt {
+                    position: absolute;
+                    width: 320px;
+                    top: 1740px;
                 }
             }
         }
@@ -364,6 +401,118 @@ a {
     &:hover {
         transition: all 0.6s;
         background: $bl;
+    }
+}
+
+.opcion {
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    text-align: center;
+
+    .opcion__intro {
+        margin: 40px;
+
+        .opcion__title {
+            margin: 40px;
+        }
+    }
+
+    .section {
+        width: 90%;
+        .opcion__body {
+            display: flex;
+            justify-content: center;
+            .body__item {
+                color: $bl;
+                width: 30%;
+                padding: 12px;
+                display: flex;
+                justify-content: center;
+
+                .item__img {
+                    img {
+                        width: 80%;
+                    }
+                }
+
+                .item__text {
+                    position: absolute;
+                    padding: 10px;
+                    width: 21%;
+                    height: 524px;
+                    z-index: 1;
+                    background: rgba(0, 0, 0, 0.4);
+                    cursor: pointer;
+
+                    &:hover {
+                        transition: all 0.6s;
+                        background: rgba(0, 0, 0, 0.2);
+                    }
+
+                    .item__text--png {
+                        img {
+                            width: 30%;
+                        }
+                    }
+
+                    .boton__registro {
+                        background: $Sec;
+                        color: $bl;
+                        text-align: center;
+                        border-radius: 6px;
+                        padding: 10px;
+                        margin: 10px;
+
+                        &:hover {
+                            transition: all 0.6s;
+                            background: $Dor;
+                        }
+                    }
+
+                    .item__text--txt {
+                        margin: 86px 0px 86px 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.testi {
+    margin-top: 60px;
+    .section {
+        .testi__intro {
+            color: black;
+            text-align: center;
+        }
+
+        .testi__body {
+            height: 560px;
+            margin-top: 60px;
+
+            .carousel-inner {
+                height: 480px;
+                .carousel-item {
+                    .content {
+                        display: flex;
+                        justify-content: center;
+                        .d-block {
+                            width: 320px;
+                        }
+
+                        .carousel-caption {
+                            color: black;
+                            margin-top: 260px;
+                            top: 80px;
+                            height: 80px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -439,6 +588,7 @@ a {
 .slogan {
     text-align: center;
     position: relative;
+    color: $Pr;
     .container {
         .slogan__txt {
             font-size: 30px;
@@ -551,38 +701,6 @@ a {
 
             .intro__txt {
                 width: 100%;
-            }
-        }
-    }
-
-    .highlights {
-        margin-top: 40px;
-        .container {
-            .high__title {
-                margin: 0px;
-            }
-
-            .high__body {
-                margin-top: 20px;
-                margin-left: 0px;
-                width: 100%;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-
-                .section__links {
-                    display: block;
-                    align-items: center;
-                    text-align: center;
-                    padding: 0px;
-                    margin-bottom: 20px;
-
-                    img {
-                        display: none;
-                    }
-                }
             }
         }
     }

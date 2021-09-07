@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const request = require('request');
+//const request = require('request');
 //const secretKey = '6LcAQioaAAAAAPzVsOtXMQkWIST80eeXVuWhJdzo';
 const morgan = require('morgan');
 const exphbs = require('express-handlebars');

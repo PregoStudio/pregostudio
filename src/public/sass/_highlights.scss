@@ -1,50 +1,44 @@
 .highlights {
-    margin-top: 60px;
+    margin-top: 140px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 
-    .high__title {
-        margin-top: 80px;
-        margin-left: 120px;
-    }
+    .section {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        padding-right: 140px;
 
-    .high__body {
-        margin-top: 60px;
-        .section {
-            height: 200px;
-            .section__img {
-                img {
-                    width: 100%;
+        .text__intro {
+            width: 20%;
+            margin: 40px;
+
+            .boton__registro {
+                background: $Sec;
+                color: $bl;
+                text-align: center;
+                border-radius: 6px;
+                padding: 10px;
+                margin: 10px;
+
+                &:hover {
+                    transition: all .6s;
+                    background: $Dor;
                 }
             }
 
-            .section__list {
-                display: block;
-                position: relative;
-                bottom: 174px;
-                list-style: none;
-                padding: 10px 10px 10px 10px;
-
-                .list__part {
-                    display: flex;
-
-                    .section__item {
-                        margin: 6px;
-                        padding: 0px 6px 6px 6px;
-                        font-size: 22px;
-                        cursor: pointer;
-
-                        &:hover {
-                            transition: all 0.8s;
-                            background: $bl;
-                            opacity: 40%;
-
-                            .item__link {
-                                opacity: 100%;
-                                color: black;
-                            }
-                        }
-                    }
+            .text__intro--title {
+                margin: 10px 10px 20px 10px;
+                h3 {
+                    text-decoration: dashed;
                 }
             }
+        }
+
+        .section__intro--img {
+            width: 24%;
         }
     }
 
