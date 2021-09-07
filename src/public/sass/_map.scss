@@ -113,6 +113,10 @@
                     }
                 }
             }
+
+            @media (min-width: 1024px) and (max-width: 1920px) {
+                left: 920px;
+            }
         }
     }
 }

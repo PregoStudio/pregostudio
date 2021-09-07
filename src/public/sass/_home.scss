@@ -17,6 +17,7 @@ body {
     height: 120px;
 
     .container {
+        background: $Pr;
         img {
             width: 220px;
             margin: 10px;
@@ -27,7 +28,7 @@ body {
             .social__menu {
                 list-style: none;
                 display: flex;
-                justify-content: space-between;
+                justify-content: end;
 
                 .social__item {
                     a {
@@ -302,6 +303,10 @@ a {
 
             .intro__logo {
                 width: 540px;
+
+                @media (min-width: 320px) and (max-width: 1024px) {
+                    width: 220px;
+                }
             }
 
             .intro__content {
@@ -325,6 +330,18 @@ a {
                             color: $Sec;
                         }
                     }
+                }
+            }
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 1024px) {
+        .container {
+            .intro__txt {
+                width: 100%;
+
+                .intro__content {
+                    width: 100%;
                 }
             }
         }
@@ -361,6 +378,14 @@ a {
                     position: absolute;
                     width: 320px;
                     top: 1740px;
+                }
+            }
+
+            @media (min-width: 320px) and (max-width: 1024px) {
+                display: block;
+
+                .section__intro {
+                    width: 90%;
                 }
             }
         }
@@ -425,6 +450,7 @@ a {
         .opcion__body {
             display: flex;
             justify-content: center;
+
             .body__item {
                 color: $bl;
                 width: 30%;
@@ -446,6 +472,11 @@ a {
                     z-index: 1;
                     background: rgba(0, 0, 0, 0.4);
                     cursor: pointer;
+
+                    @media (min-width: 1024px) and (max-width: 1920px) {
+                        height: 414px;
+                        width: 20%;
+                    }
 
                     &:hover {
                         transition: all 0.6s;
@@ -474,6 +505,31 @@ a {
 
                     .item__text--txt {
                         margin: 86px 0px 86px 0px;
+
+                        @media (min-width: 1024px) and (max-width: 1920px) {
+                            margin: 20px 0px 20px 0px;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (min-width: 320px) and (max-width: 1024px) {
+            width: 100%;
+            .opcion__body {
+                display: block;
+
+                .body__item {
+                    width: 100%;
+
+                    .item__img {
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .item__text {
+                        width: 100%;
                     }
                 }
             }
@@ -482,7 +538,7 @@ a {
 }
 
 .testi {
-    margin-top: 60px;
+    margin-top: 160px;
     .section {
         .testi__intro {
             color: black;
@@ -597,6 +653,16 @@ a {
 }
 
 @media (min-width: 320px) and (max-width: 1024px) {
+    .menu {
+        .navbar-nav {
+            margin: 60px 0px 60px 0px;
+
+            a {
+                margin: 20px 0px 20px 0px;
+            }
+        }
+    }
+
     .menu_redes {
         background: $Sec;
         width: 100%;
@@ -689,18 +755,24 @@ a {
         position: relative;
         text-align: center;
         padding: 0px;
-        margin-top: 20px;
+        margin-top: 360px;
+        height: auto;
+
         .container {
             display: block;
             .intro__img {
                 img {
-                    width: 100%;
+                    width: 20%;
                     margin: 0px;
                 }
             }
 
             .intro__txt {
                 width: 100%;
+
+                img {
+                    width: 10%;
+                }
             }
         }
     }
