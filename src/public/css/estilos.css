@@ -1017,7 +1017,7 @@
   background: #917731;
 }
 .section__map .map__body .map__txt--box .modal .modal-dialog .modal-content {
-  color: #fff;
+  color: black;
 }
 .section__map .map__body .map__txt--box .modal .modal-dialog .modal-content .modal-header {
   text-align: center;
@@ -1479,18 +1479,17 @@ a:hover {
 .intro {
   padding: 40px 20px 20px 20px;
   margin-top: 20px;
-  height: 1180px;
+  height: 960px;
 }
 .intro .intro__img {
   z-index: 1;
   display: flex;
   justify-content: center;
 }
-.intro .intro__img img {
+.intro .intro__img iframe {
   width: 96%;
   z-index: 1;
   margin: 20px;
-  border: 2px solid #27292b;
 }
 .intro .container {
   position: relative;
@@ -1569,7 +1568,8 @@ a:hover {
 .intro__dos .intro__body .section .section__intro .intro__txt {
   position: absolute;
   width: 320px;
-  top: 1740px;
+  top: 1540px;
+  font-weight: bold;
 }
 @media (min-width: 320px) and (max-width: 1024px) {
   .intro__dos .intro__body .section {

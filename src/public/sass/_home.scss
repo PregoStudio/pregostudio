@@ -276,18 +276,16 @@ a {
 .intro {
     padding: 40px 20px 20px 20px;
     margin-top: 20px;
-    height: 1180px;
+    height: 960px;
 
     .intro__img {
         z-index: 1;
         display: flex;
         justify-content: center;
-        img {
+        iframe {
             width: 96%;
             z-index: 1;
             margin: 20px;
-
-            border: 2px solid $grisC;
         }
     }
 
@@ -378,7 +376,8 @@ a {
                 .intro__txt {
                     position: absolute;
                     width: 320px;
-                    top: 1740px;
+                    top: 1540px;
+                    font-weight: bold;
                 }
             }
 
@@ -572,44 +571,6 @@ a {
         }
     }
 }
-
-// .modal {
-//     .modal-dialog {
-//         .modal-content {
-//             color: $Fondo;
-
-//             .modal-header {
-//                 text-align: center;
-//             }
-
-//             .modal-body {
-//                 text-align: left;
-
-//                 .form__req {
-//                     margin: 40px;
-//                     form {
-//                         display: block;
-
-//                         .section__form {
-//                             display: flex;
-//                             justify-content: space-evenly;
-//                         }
-
-//                         .mb-3 {
-//                             a {
-//                                 color: $Fondo;
-//                                 &:hover {
-//                                     transition: all 0.6s;
-//                                     color: $Pr;
-//                                 }
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
 
 .modal-backdrop {
     z-index: 0;
