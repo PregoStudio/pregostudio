@@ -1657,8 +1657,14 @@ a:hover {
 }
 @media (min-width: 1024px) and (max-width: 1920px) {
   .opcion .section .opcion__body .body__item .item__text {
-    height: 414px;
-    width: 20%;
+    height: 524px;
+    width: 20.5%;
+  }
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  .opcion .section .opcion__body .body__item .item__text {
+    height: 524px;
+    width: 20.5%;
   }
 }
 .opcion .section .opcion__body .body__item .item__text:hover {
