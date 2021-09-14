@@ -474,13 +474,13 @@ a {
                     background: rgba(0, 0, 0, 0.4);
                     cursor: pointer;
 
-                    @media (min-width: 1024px) and (max-width: 1920px) {
+                    @media (min-width: 1920px) and (max-width: 2920px) {
                         height: 524px;
                         width: 20.5%;
                     }
 
-                    @media (min-width: 320px) and (max-width: 1023px) {
-                        height: 524px;
+                    @media (min-width: 320px) and (max-width: 1919px) {
+                        height: 412px;
                         width: 20.5%;
                     }
 
