@@ -23,6 +23,11 @@
             text-align: center;
             border-radius: 20px 0px 20px 0px;
 
+            @media (min-width: 1280px) and (max-width: 2920px) {
+                border: 2px solid $Dor;
+                margin-left: 300px;
+            }
+
             .container {
                 color: $bl;
                 .call__section {
