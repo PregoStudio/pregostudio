@@ -286,6 +286,7 @@ a {
             width: 96%;
             z-index: 1;
             margin: 20px;
+            height: 720px;
         }
     }
 
@@ -474,8 +475,13 @@ a {
                     cursor: pointer;
 
                     @media (min-width: 1024px) and (max-width: 1920px) {
-                        height: 414px;
-                        width: 20%;
+                        height: 524px;
+                        width: 20.5%;
+                    }
+
+                    @media (min-width: 320px) and (max-width: 1023px) {
+                        height: 524px;
+                        width: 20.5%;
                     }
 
                     &:hover {
