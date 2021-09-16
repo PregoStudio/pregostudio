@@ -787,177 +787,177 @@
 }
 
 .icon-heart:before {
-  content: "\e800";
+  content: "";
 }
 
 /* '' */
 .icon-chat:before {
-  content: "\e801";
+  content: "";
 }
 
 /* '' */
 .icon-down-open:before {
-  content: "\e802";
+  content: "";
 }
 
 /* '' */
 .icon-left-open:before {
-  content: "\e803";
+  content: "";
 }
 
 /* '' */
 .icon-right-open:before {
-  content: "\e804";
+  content: "";
 }
 
 /* '' */
 .icon-up-open:before {
-  content: "\e805";
+  content: "";
 }
 
 /* '' */
 .icon-plus-circled:before {
-  content: "\e806";
+  content: "";
 }
 
 /* '' */
 .icon-trash-1:before {
-  content: "\e807";
+  content: "";
 }
 
 /* '' */
 .icon-trash-empty:before {
-  content: "\e808";
+  content: "";
 }
 
 /* '' */
 .icon-trash-2:before {
-  content: "\e809";
+  content: "";
 }
 
 /* '' */
 .icon-contrast:before {
-  content: "\e80a";
+  content: "";
 }
 
 /* '' */
 .icon-adjust:before {
-  content: "\e80b";
+  content: "";
 }
 
 /* '' */
 .icon-adjust-1:before {
-  content: "\e80c";
+  content: "";
 }
 
 /* '' */
 .icon-pencil:before {
-  content: "\e80d";
+  content: "";
 }
 
 /* '' */
 .icon-home:before {
-  content: "\e80e";
+  content: "";
 }
 
 /* '' */
 .icon-home-1:before {
-  content: "\e80f";
+  content: "";
 }
 
 /* '' */
 .icon-picture:before {
-  content: "\e810";
+  content: "";
 }
 
 /* '' */
 .icon-phone:before {
-  content: "\e811";
+  content: "";
 }
 
 /* '' */
 .icon-briefcase:before {
-  content: "\e812";
+  content: "";
 }
 
 /* '' */
 .icon-location:before {
-  content: "\e813";
+  content: "";
 }
 
 /* '' */
 .icon-mail:before {
-  content: "\e814";
+  content: "";
 }
 
 /* '' */
 .icon-adult:before {
-  content: "\e815";
+  content: "";
 }
 
 /* '' */
 .icon-videocam:before {
-  content: "\e816";
+  content: "";
 }
 
 /* '' */
 .icon-video:before {
-  content: "\e817";
+  content: "";
 }
 
 /* '' */
 .icon-link:before {
-  content: "\e818";
+  content: "";
 }
 
 /* '' */
 .icon-cancel:before {
-  content: "\e819";
+  content: "";
 }
 
 /* '' */
 .icon-twitter:before {
-  content: "\f099";
+  content: "";
 }
 
 /* '' */
 .icon-menu:before {
-  content: "\f0c9";
+  content: "";
 }
 
 /* '' */
 .icon-user-md:before {
-  content: "\f0f0";
+  content: "";
 }
 
 /* '' */
 .icon-medkit:before {
-  content: "\f0fa";
+  content: "";
 }
 
 /* '' */
 .icon-youtube-play:before {
-  content: "\f16a";
+  content: "";
 }
 
 /* '' */
 .icon-trash:before {
-  content: "\f1f8";
+  content: "";
 }
 
 /* '' */
 .icon-whatsapp:before {
-  content: "\f232";
+  content: "";
 }
 
 /* '' */
 .icon-facebook-circled:before {
-  content: "\f30d";
+  content: "";
 }
 
 /* '' */
 .icon-instagram:before {
-  content: "\f32d";
+  content: "";
 }
 
 /* '' */
@@ -1451,6 +1451,20 @@ h5 {
   color: #27292b;
 }
 
+.menu__control {
+  list-style: none;
+}
+
+.control__links {
+  color: #27292b;
+  text-decoration: none;
+}
+.control__links:hover {
+  transition: all 0.4s;
+  color: #917731;
+  text-decoration: none;
+}
+
 a {
   color: #fff;
   text-decoration: none;
@@ -1459,6 +1473,10 @@ a:hover {
   transition: all 0.4s;
   color: #917731;
   text-decoration: none;
+}
+
+.perfil {
+  color: black;
 }
 
 .strong__aq {

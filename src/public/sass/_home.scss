@@ -223,6 +223,20 @@ h5 {
     }
 }
 
+.menu__control {
+    list-style: none;
+}
+
+.control__links {
+    color: $grisC;
+    text-decoration: none;
+    &:hover {
+        transition: all 0.4s;
+        color: $Dor;
+        text-decoration: none;
+    }
+}
+
 a {
     color: $bl;
     text-decoration: none;
@@ -231,6 +245,10 @@ a {
         color: $Dor;
         text-decoration: none;
     }
+}
+
+.perfil {
+    color: black;
 }
 
 .strong__aq {

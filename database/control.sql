@@ -1,4 +1,4 @@
--- CREATE TABLE clients(
+-- CREATE TABLE pclients(
 -- 	id INT(11) NOT NULL,
 --     nombre VARCHAR(100) NOT NULL,
 --     telefono INT(60) NOT NULL,
