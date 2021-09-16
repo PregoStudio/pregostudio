@@ -710,6 +710,32 @@ a {
         }
     }
 
+    .tania {
+        display: none;
+    }
+
+    .requisitos {
+        .container {
+            display: block;
+            padding: 10px;
+            height: 1040px;
+            text-align: center;
+
+            .req__img {
+                margin: 10px;
+            }
+
+            .req__body {
+                margin-top: 20px;
+
+                .req__list {
+                    list-style: none;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+
     .menu_redes {
         background: $Sec;
         width: 100%;

@@ -51,10 +51,13 @@
     .container {
         .nos__header {
             text-align: center;
+            color: $grisC;
         }
 
         .nos__body {
+            color: $grisC;
             .nos__body--item {
+                color: $grisC;
                 .item--title {
                     text-align: center;
                 }
@@ -68,6 +71,15 @@
                     p,
                     img {
                         margin: 20px;
+                    }
+
+                    .item__body--content {
+                        display: block;
+                        text-align: right;
+
+                        .item__body--list {
+                            list-style: none;
+                        }
                     }
                 }
             }
@@ -118,6 +130,11 @@
                     .item--body {
                         display: block;
                         margin: 0px;
+                        text-align: center;
+
+                        .item__body--content {
+                            text-align: center;
+                        }
 
                         img {
                             width: 90%;
