@@ -1429,6 +1429,10 @@ h5 {
   font-size: 20px;
 }
 
+.breadcrumb a {
+  color: #27292b;
+}
+
 a {
   color: #fff;
   text-decoration: none;
