@@ -541,6 +541,78 @@ a {
     }
 }
 
+.tania {
+    height: 580px;
+    .foto__tania {
+        width: 100%;
+    }
+
+    .container {
+        display: block;
+        position: relative;
+        bottom: 380px;
+        text-align: center;
+
+        .logo__tania {
+            width: 320px;
+        }
+
+        .tania__frase {
+            width: 90%;
+            color: $bl;
+            margin: 40px;
+            padding: 40px;
+            font-size: 26px;
+        }
+    }
+}
+
+.requisitos {
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $grisC;
+        color: $bl;
+        padding: 60px;
+        height: 440px;
+
+        .req__img {
+            width: 320px;
+            margin: 40px;
+        }
+
+        .req__body {
+            .req__title {
+                text-align: center;
+            }
+
+            .req__list {
+                .req__item {
+                    margin-top: 20px;
+                }
+            }
+
+            .boton__registro {
+                background: $Sec;
+                color: $bl;
+                padding: 10px;
+                border-radius: 4px;
+                margin: 30px;
+
+                &:hover {
+                    transition: all .6s;
+                    background: $Dor;
+                }
+            }
+        }
+    }
+}
+
 .testi {
     margin-top: 160px;
     .section {
