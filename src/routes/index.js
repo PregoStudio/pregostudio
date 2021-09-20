@@ -35,6 +35,10 @@ router.get('/control/perfil', (req, res) => {
     res.render('control/perfil');
 });
 
+// router.get('/control/solicitudes', (req, res) => {
+//     res.render('control/solicitudes');
+// });
+
 // router.post('/control/', isNotLoggedIn, (req, res, next) => {
 //     passport.authenticate('local.signin', {
 //         successRedirect: '/control/perfil',

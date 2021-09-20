@@ -1,0 +1,44 @@
+<div class="historia__individiual">
+    <div class="container">
+        <div class="paciente__info">
+            <div class="paciente__header">
+                <h1>Listado de nuevos modelos registrados</h1>
+            </div>
+            <div class="paciente__body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Correo</th>
+                            <th scope="col">teléfono</th>
+                            <th scope="col">Mensaje</th>
+                            <th scope="col" class="text-center">Acciones</th>
+                        </tr>
+                    </thead>
+                    {{#each pclients}}
+                    <tbody>
+                        <tr>
+                            <th scope="row">{{id}}</th>
+                            <td><a href="/control/historias/individual/{{id}}">{{nombre}}</a></td>
+                            <td>{{email}}</td>
+                            <td>{{telefono}}</td>
+                            <td>{{descripcion}}</td>
+                            <td class="text-center">
+                                <a href="/control/pacientes/eliminar/{{id}}" class="icon-trash-1"></a>
+                            </td>
+                        </tr>
+                        {{else}}
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Hola</td>
+                            <td>No tienes modelos registrados</td>
+                            <td><a href="/control/historias/agregar" class="btn btn-danger">Agrega uno nuevo</a></td>
+                        </tr>
+                    </tbody>
+                    {{/each}}
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
