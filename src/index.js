@@ -9,7 +9,7 @@ const flash = require('connect-flash');
 const session = require('express-session');
 const mySQLStore = require('express-mysql-session');
 const passport = require('passport');
-const robots = require('express-robots-txt')
+const robots = require('express-robots-txt');
 
 const { database } = require('./keys');
 
