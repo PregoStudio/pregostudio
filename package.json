@@ -1,43 +1,43 @@
 {
-  "name": "k1n0c0m",
+  "name": "pregostudio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node src",
-    "dev": "nodemon src"
+    "dev": "node src"
   },
-  "keywords": [
-    "example",
-    "heroku"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PregoStudio/pregostudio.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "engines": {
-    "node": "13.0.1"
+  "bugs": {
+    "url": "https://github.com/PregoStudio/pregostudio/issues"
   },
+  "homepage": "https://github.com/PregoStudio/pregostudio#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "connect-flash": "^0.1.1",
-    "ejs": "^3.1.5",
+    "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
-    "express-mysql-session": "^2.1.5",
+    "express-handlebars": "^5.3.3",
+    "express-mysql-session": "^2.1.7",
     "express-robots-txt": "^1.0.0",
-    "express-session": "^1.17.1",
-    "express-validator": "^6.9.2",
-    "google-auth-library": "^6.1.4",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.1",
     "morgan": "^1.10.0",
-    "mysql": "^2.18.1",
     "nodemailer": "^6.6.3",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
-    "pg": "^8.5.1",
+    "pg": "^8.7.1",
     "request": "^2.88.2",
     "timeago.js": "^4.0.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.12"
   }
 }
