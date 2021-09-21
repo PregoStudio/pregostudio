@@ -24,6 +24,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "express-mysql-session": "^2.1.5",
+    "express-robots-txt": "^1.0.0",
     "express-session": "^1.17.1",
     "express-validator": "^6.9.2",
     "google-auth-library": "^6.1.4",

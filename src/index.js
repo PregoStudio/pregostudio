@@ -9,6 +9,7 @@ const flash = require('connect-flash');
 const session = require('express-session');
 const mySQLStore = require('express-mysql-session');
 const passport = require('passport');
+const robots = require('express-robots-txt')
 
 const { database } = require('./keys');
 
@@ -58,6 +59,7 @@ app.use('/models', require('./routes/models'));
 
 //Public
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(robots(path.join(__dirname, '/robots.txt')));
 
 //Starting
 app.listen(app.get('port'), () => {
